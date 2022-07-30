@@ -24,7 +24,7 @@ int main(int argc, char ** argv){
 
 ## An image:
 
-![Sample Image](logo192.png)
+![Sample Image](markdown-previewer-react/logo512.png)
 
 here's some **Bold Text!**
 \n\n\n

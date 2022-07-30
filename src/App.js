@@ -11,10 +11,10 @@ function App() {
     return (
         <div id='wrapper' className='container'>
             <div className="row">
-                <div className="col d-flex">
-                    <textarea name="editor" id="editor" className='flex-grow-1' rows={22} cols={50} onChange={onChange} value={edit}></textarea>
+                <div className="col editor">
+                    <textarea name="editor" id="editor"  rows={22} cols={50} onChange={onChange} value={edit}></textarea>
                 </div>
-                <div className="col">
+                <div className="col preview">
                     <div className="preview" id="preview" >
                         <Markdown value={edit} className="line-break"/>
                     </div>
